@@ -1,0 +1,37 @@
+
+
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#002084;
+    padding: 20px;
+  }
+  .menu ul{
+    display:flex;
+    gap:40px;
+  }
+  .menu ul li{
+    list-style:none;
+  }
+  .menu ul li a{
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    font-family: sans-serif;
+    padding:10px;
+    border-radius:5px;
+  }
+  .menu ul li a:hover{
+    background-color: #0099cc;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset:6px;
+    
+
+  }
+  
+  .paragrafo{
+    color:blue;
+    font-size:30px;
+  }
